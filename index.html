@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>miqim - Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0; background: #f9f9f9; color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+    nav {
+      margin-top: 0.5rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #4caf50;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      border-bottom: 2px solid #4caf50;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      color: #222;
+    }
+    .projects ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .projects li {
+      margin-bottom: 1rem;
+      background: #fff;
+      padding: 1rem;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
+    }
+    .projects a {
+      color: #4caf50;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .projects a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+      border-top: 1px solid #ddd;
+      margin-top: 4rem;
+    }
+    @media (max-width: 600px) {
+      header, main {
+        padding: 1rem;
+      }
+      nav a {
+        margin: 0 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>miqim</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi! I'm miqim, a software developer skilled in Go, C++, Python, JavaScript, and more.  
+      I'm passionate about building scalable applications, learning new technologies, and sharing knowledge.</p>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <a href="https://github.com/miqim/project1" target="_blank" rel="noopener noreferrer">Project One</a>  
+          – A cool tool I built with Go and Kubernetes.
+        </li>
+        <li>
+          <a href="https://github.com/miqim/project2" target="_blank" rel="noopener noreferrer">Project Two</a>  
+          – An open-source library in Rust for fast data processing.
+        </li>
+        <li>
+          <a href="https://github.com/miqim/project3" target="_blank" rel="noopener noreferrer">Project Three</a>  
+          – A personal website built using static site generators.
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can reach me via email: <a href="mailto:miqim@example.com">miqim@example.com</a></p>
+      <p>Or find me on <a href="https://github.com/miqim" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 miqim. All rights reserved.
+  </footer>
+
+</body>
+</html>
